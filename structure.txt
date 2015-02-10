@@ -1,0 +1,108 @@
+activity.json
+
+{
+	"activities-activityLevels-intraday": {
+		"dataset": [{
+			"time": "00:00:00",
+			"value": 0
+		}, {
+			.....
+			......
+		}, {
+			"time": "23:15:00",
+			"value": 0
+		}],
+		"datasetInterval": 15,
+		"datasetType": "minute"
+	}
+}
+
+
+heart.json
+
+{
+	"activities-heart": [{
+		"customHeartRateZones": [],
+		"dateTime": "2015-01-27",
+		"heartRateZones": [{
+			"caloriesOut": 1510.50796,
+			"max": 96,
+			"min": 30,
+			"minutes": 1138,
+			"name": "Out of Range"
+		}, {
+			"caloriesOut": 950.95341,
+			"max": 134,
+			"min": 96,
+			"minutes": 220,
+			"name": "Fat Burn"
+		}, {
+			"caloriesOut": 13.65614,
+			"max": 163,
+			"min": 134,
+			"minutes": 4,
+			"name": "Cardio"
+		}, {
+			"caloriesOut": 0,
+			"max": 220,
+			"min": 163,
+			"minutes": 0,
+			"name": "Peak"
+		}],
+		"value": "83.6"
+	}],
+	"activities-heart-intraday": {
+		"dataset": [{
+			"time": "00:00:00",
+			"value": 76
+		}, {
+			......
+			......
+		}, {
+			"time": "23:15:00",
+			"value": 0
+		}],
+		"datasetInterval": 15,
+		"datasetType": "minute"
+	}
+}
+
+sleep.json
+
+{
+	"sleep": [{
+		"awakeCount": 3,
+		"awakeDuration": 5,
+		"awakeningsCount": 23,
+		"duration": 28560000,
+		"efficiency": 91,
+		"isMainSleep": true,
+		"logId": 680257766,
+		"minuteData": [{
+			"dateTime": "00:27:00",
+			"value": "2"
+		}, {
+			.....
+			.....
+		}, {
+			"dateTime": "08:22:00",
+			"value": "1"
+		}],
+		"minutesAfterWakeup": 0,
+		"minutesAsleep": 426,
+		"minutesAwake": 44,
+		"minutesToFallAsleep": 0,
+		"restlessCount": 26,
+		"restlessDuration": 45,
+		"startTime": "2015-01-27T00:27:00.000",
+		"timeInBed": 476
+	}],
+	"summary": {
+		"totalMinutesAsleep": 426,
+		"totalSleepRecords": 1,
+		"totalTimeInBed": 476
+	}
+}
+
+
+			
