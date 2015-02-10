@@ -9,8 +9,8 @@ CSV_DIR = os.path.join(BASE_DIR, 'csv')
 
 
 def main():
-#	write_heart_csv()
-#	write_sleep_csv()
+	write_heart_csv()
+	write_sleep_csv()
 	write_activity_csv()
 
 def write_heart_csv():
